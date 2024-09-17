@@ -6,7 +6,7 @@ import { Switch } from '@alfalab/core-components/switch';
 import { Typography } from '@alfalab/core-components/typography';
 import { useCallback, useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import car from './assets/car.png';
+import tech from './assets/tech.png';
 import { LS, LSKeys } from './ls';
 import { appSt } from './style.css';
 import { ThxLayout } from './thx/ThxLayout';
@@ -80,13 +80,13 @@ export const App = () => {
     <>
       <div className={appSt.container}>
         <div className={appSt.box}>
-          <img src={car} />
+          <img src={tech} />
 
           <Typography.Title tag="h1" view="medium" font="system" weight="bold">
-            Автокредит
+            Кредит наличными
           </Typography.Title>
           <Typography.Text view="primary-medium" color="secondary">
-            На новый или подержанный автомобиль
+            На любые нужды
           </Typography.Text>
         </div>
 
